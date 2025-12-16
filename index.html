@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULADORA&reg;</h1>
+    <main class="calculadora">
+        <div class="display">
+            <input type="text" value="" name="display" id="display" disabled>
+        </div>
+
+        <div class="botoes">
+            <section class="primeira">
+                <button type="button" class="botao-limpar" onclick="limparTudo()">Limpar</button>
+                <button class="botao" value="+" onclick="mostrarDisplay('+')">+</button>
+            </section>
+            <section class="segunda">
+                <button class="botao" value="7" onclick="mostrarDisplay(7)">7</button>
+                <button class="botao" value="8" onclick="mostrarDisplay(8)">8</button>
+                <button class="botao" value="9" onclick="mostrarDisplay(9)">9</button>
+                <button class="botao" value="-" onclick="mostrarDisplay('-')">-</button>
+            </section>
+            <section class="terceira">
+                <button class="botao" value="4" onclick="mostrarDisplay(4)">4</button>
+                <button class="botao" value="5" onclick="mostrarDisplay(5)">5</button>
+                <button class="botao" value="6" onclick="mostrarDisplay(6)">6</button>
+                <button class="botao" value="*" onclick="mostrarDisplay('*')">*</button>
+            </section>
+            <section class="quarta">
+                <button class="botao" value="1" onclick="mostrarDisplay(1)">1</button>
+                <button class="botao" value="2" onclick="mostrarDisplay(2)">2</button>
+                <button class="botao" value="3" onclick="mostrarDisplay(3)">3</button>
+                <button class="botao" value="/" onclick="mostrarDisplay('/')">/</button>
+            </section>
+            <section class="quinta">
+                <button class="botao" id="botao-zero" value="0" onclick="mostrarDisplay(0)">0</button>
+                <button class="botao" value="." onclick="mostrarDisplay('.')">.</button>
+                <button class="botao-igual" id="botao-igual" value="=" onclick="result()">=</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        Desenvolvido por Kenzo Friás&copy;
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
