@@ -8,7 +8,7 @@
 </div>
 
 <h1>Acesso</h1>
-<p>Para vizualisar o projeto  clique <a href="https://kenzofrias.github.io/calculadora/">aqui</a></p>
+<p>Para vizualizar o projeto  clique <a href="https://kenzofrias.github.io/calculadora/">aqui</a></p>
 
 <h2>Tecnologias</h2>
 
